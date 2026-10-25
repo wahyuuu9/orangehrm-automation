@@ -64,4 +64,4 @@ screenshots/              -> bukti hasil running
   `pageLoadTimeout` dan `retries` diatur pada `cypress.config.js`.
 
 ## Hasil
-12 passing, 0 failing (lihat folder `screenshots/`).
+12 passing, 0 failing (lihat folder `Capture Test Automation Login OrangeHRM`).
