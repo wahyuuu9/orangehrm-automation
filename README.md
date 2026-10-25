@@ -1,4 +1,4 @@
-# Quiz 3 - Test Automation Login OrangeHRM
+# Test Automation Login OrangeHRM
 
 Nama: Wahyu Kuncoro
 
