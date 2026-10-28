@@ -88,4 +88,4 @@ npx cypress run --browser chrome --spec "cypress/e2e/intercept/login-intercept.c
 | 11 | GET /auth/requestPasswordResetCode | Status 200 |
 | 12 | GET /auth/logout | Status 302, Location ke auth/login |
 
-Bukti: folder `screenshots/intercept/`.
+Bukti: folder `Tugas 16_Wahyu Kuncoro_QA_Cypress Menggunakan Intercept`.
