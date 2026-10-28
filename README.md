@@ -65,3 +65,27 @@ screenshots/              -> bukti hasil running
 
 ## Hasil
 12 passing, 0 failing (lihat folder `Capture Test Automation Login OrangeHRM`).
+
+
+## Tugas 16 - Cypress Intercept
+File: `cypress/e2e/intercept/login-intercept.cy.js` (12 test case).
+
+Menjalankan:
+npx cypress run --browser chrome --spec "cypress/e2e/intercept/login-intercept.cy.js"
+
+| TC | Intercept | Validasi |
+|----|-----------|----------|
+| 01 | GET /dashboard/index | Status 200 setelah login valid |
+| 02 | GET /auth/login | Status 200 setelah redirect balik |
+| 03 | POST /auth/validate | Status 302, Location ke auth/login |
+| 04 | POST /auth/validate | Request tidak terkirim |
+| 05 | GET /dashboard/index | Tidak pernah diminta |
+| 06 | GET /api/v2/** | Tidak ada request API |
+| 07 | POST /auth/validate | Body request memuat password=ADMIN123 |
+| 08 | GET /auth/login (reload) | Header content-type text/html |
+| 09 | GET /api/v2/dashboard/employees/action-summary | Status 200 |
+| 10 | GET /api/v2/dashboard/shortcuts | Tidak dipanggil setelah SQL injection |
+| 11 | GET /auth/requestPasswordResetCode | Status 200 |
+| 12 | GET /auth/logout | Status 302, Location ke auth/login |
+
+Bukti: folder `screenshots/intercept/`.
