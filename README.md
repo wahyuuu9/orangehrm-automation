@@ -116,4 +116,4 @@ Lokasi: cypress/e2e/api/
 - reqres-api.cy.js: script test automation API (12 request: GET, POST, PUT, PATCH, DELETE)
 Cara menjalankan: npx cypress run --browser chrome --spec "cypress/e2e/api/reqres-api.cy.js"
 
-Bukti: folder `Tugas 18_Wahyu Kuncoro_QA_Membuat Automation API menggunakan cypress pada website reqres.in`.
+Bukti: folder `Tugas 18_Wahyu Kuncoro_QA_Automation API pada website reqres.in`.
