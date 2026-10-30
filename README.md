@@ -105,4 +105,4 @@ Lokasi: cypress/e2e/pom/
 Cara menjalankan:
 npx cypress run --browser chrome --spec "cypress/e2e/pom/login-pom.cy.js"
 
-Bukti: folder screenshots/pom/
+Bukti: folder `Tugas 17_Wahyu Kuncoro_QA_Automation menggunakan format with POM`.
