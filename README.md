@@ -89,3 +89,20 @@ npx cypress run --browser chrome --spec "cypress/e2e/intercept/login-intercept.c
 | 12 | GET /auth/logout | Status 302, Location ke auth/login |
 
 Bukti: folder `Tugas 16_Wahyu Kuncoro_QA_Cypress Menggunakan Intercept`.
+
+
+## Tugas 17 - Page Object Model (POM)
+Test login dibuat ulang dengan POM, 12 test case.
+
+Lokasi: cypress/e2e/pom/
+
+- pages/LoginPage.js: locator & aksi halaman login
+- pages/DashboardPage.js: locator & aksi dashboard (logout)
+- pages/ForgotPasswordPage.js: locator & aksi halaman reset password
+- data/loginData.js: data test (user, pesan, URL)
+- login-pom.cy.js: file test yang memanggil page object dan data
+
+Cara menjalankan:
+npx cypress run --browser chrome --spec "cypress/e2e/pom/login-pom.cy.js"
+
+Bukti: folder screenshots/pom/
