@@ -106,3 +106,14 @@ Cara menjalankan:
 npx cypress run --browser chrome --spec "cypress/e2e/pom/login-pom.cy.js"
 
 Bukti: folder `Tugas 17_Wahyu Kuncoro_QA_Automation menggunakan format with POM`.
+
+
+## Tugas 18 - API Automation (ReqRes.in)
+Testing REST API pada website reqres.in sebanyak 12 request dengan assertion pada status code dan response body.
+
+Lokasi: cypress/e2e/api/
+
+- reqres-api.cy.js: script test automation API (12 request: GET, POST, PUT, PATCH, DELETE)
+Cara menjalankan: npx cypress run --browser chrome --spec "cypress/e2e/api/reqres-api.cy.js"
+
+Bukti: folder `Tugas 18_Wahyu Kuncoro_QA_Membuat Automation API menggunakan cypress pada website reqres.in`.
